@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\WinAPI">
+      <UniqueIdentifier>{d702c4eb-c51b-4307-8c4c-c76b146d864e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WinMain">
+      <UniqueIdentifier>{3e052d6f-63f3-41ff-b99e-8298e13d836b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Bitmaps">
+      <UniqueIdentifier>{284a3182-196c-45e3-af0f-9c3e32d7598c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameProcess">
+      <UniqueIdentifier>{7d5d27e0-85a9-4c5f-8500-90d3917f6056}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FrameWork.h">
+      <Filter>Source Files\WinAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="Targetver.h">
+      <Filter>Source Files\WinAPI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>Source Files\WinMain</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resource\Bitmaps\back.bmp">
+      <Filter>Resource Files\Bitmaps</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

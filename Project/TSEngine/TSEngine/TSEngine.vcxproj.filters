@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\TSEngine">
+      <UniqueIdentifier>{3d8790d5-9709-4fd1-97c2-db80a415270d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TSEngine.h">
+      <Filter>Source Files\TSEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework.h">
+      <Filter>Source Files\TSEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="TSprite.h">
+      <Filter>Source Files\TSEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="AniInfo.h">
+      <Filter>Source Files\TSEngine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="TSEngine.cpp">
+      <Filter>Source Files\TSEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="AniInfo.cpp">
+      <Filter>Source Files\TSEngine</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

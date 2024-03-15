@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Precompiled">
+      <UniqueIdentifier>{fd1403ce-c8da-4661-89d1-67906d08594b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject">
+      <UniqueIdentifier>{abd80806-3188-438c-bad4-98e173abda55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Time">
+      <UniqueIdentifier>{00b7045d-38c7-4fc0-98d0-64f44a41e1df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameObject\Player">
+      <UniqueIdentifier>{05bd1762-3aa8-44a4-85fb-9347e246014c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\KeyInput">
+      <UniqueIdentifier>{d2f7fbb9-c015-4519-bd9c-9450bc3fe217}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CollisionDetection">
+      <UniqueIdentifier>{d499ff89-f983-4237-a648-349a25790970}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{6f293a69-e9aa-4083-9357-dc9acb68a675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameManager">
+      <UniqueIdentifier>{e80dc6da-7592-406f-855e-a7c0eff499bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CSceneManager">
+      <UniqueIdentifier>{3543e5e7-9224-415f-b820-4993800dc5a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MapPattern">
+      <UniqueIdentifier>{41241654-0673-4cab-9c97-c492446d7519}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CSceneManager\CScenes">
+      <UniqueIdentifier>{13d6fa8d-1138-4fa9-8150-5ce14e4f0377}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SoundManager">
+      <UniqueIdentifier>{a99a3ae3-af23-4230-a690-057aa4bd97ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files\Precompiled</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatForm.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimeController.cpp">
+      <Filter>Source Files\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="Trap.cpp">
+      <Filter>Source Files\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files\KeyInput</Filter>
+    </ClCompile>
+    <ClCompile Include="AABB.cpp">
+      <Filter>Source Files\CollisionDetection</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Source Files\CollisionDetection</Filter>
+    </ClCompile>
+    <ClCompile Include="Player2.cpp">
+      <Filter>Source Files\GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Gage.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemPatern.cpp">
+      <Filter>Source Files\MapPattern</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene.cpp">
+      <Filter>Source Files\CSceneManager\CScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameIntro.cpp">
+      <Filter>Source Files\CSceneManager\CScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="InGame.cpp">
+      <Filter>Source Files\CSceneManager\CScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneManager.cpp">
+      <Filter>Source Files\CSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="WinFire.cpp">
+      <Filter>Source Files\CSceneManager\CScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="WinIce.cpp">
+      <Filter>Source Files\CSceneManager\CScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>Source Files\SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingCredit.cpp">
+      <Filter>Source Files\CSceneManager\CScenes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Source Files\Precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Source Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PlatForm.h">
+      <Filter>Source Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Source Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimeController.h">
+      <Filter>Source Files\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Trap.h">
+      <Filter>Source Files\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Source Files\GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Source Files\KeyInput</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h">
+      <Filter>Source Files\CollisionDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Source Files\CollisionDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="Player2.h">
+      <Filter>Source Files\GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Gage.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Source Files\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemPatern.h">
+      <Filter>Source Files\MapPattern</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene.h">
+      <Filter>Source Files\CSceneManager\CScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameIntro.h">
+      <Filter>Source Files\CSceneManager\CScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="InGame.h">
+      <Filter>Source Files\CSceneManager\CScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneManager.h">
+      <Filter>Source Files\CSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="WinFire.h">
+      <Filter>Source Files\CSceneManager\CScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="WinIce.h">
+      <Filter>Source Files\CSceneManager\CScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Source Files\SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingCredit.h">
+      <Filter>Source Files\CSceneManager\CScenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
